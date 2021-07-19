@@ -1,15 +1,5 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Resume v7.0.2 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v5.0.2 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -129,7 +119,11 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  /* font-size: 1.4em; */
 }
+/* p.lead{
+  font-size: 1.7rem;
+} */
 
 abbr[title],
 abbr[data-bs-original-title] {
@@ -456,9 +450,12 @@ progress {
 [hidden] {
   display: none !important;
 }
-
+   /* about */
+   #about p{
+     font-size: 1.7rem;
+   }
 .lead {
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 300;
 }
 
