@@ -11296,3 +11296,9 @@ body{
 .name{
   text-align: center;
 }
+
+/* interests */
+
+.size{
+  font-size: 1.5rem;
+}
